@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const API_KEY = "AIzaSyBb8qZyL5cWK-D5Vs6x0T-WNM88UXmUU1A";
+const API_KEY = "AIzaSyDi5x6FLgwv97m1rqZkXoHSb87YmzIX0no";
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export const analyzeStudentProfile = async (formData, mode) => {
